@@ -7,14 +7,14 @@ function convertToBool(text, fault = "true") {
 }
 
 module.exports = {
-  SESSION_ID: process.env.SESSION_ID || "Enter your sesson id with out mulvin~",
-  OWNER_NUM: process.env.OWNER_NUM || "94726228243",
+  SESSION_ID: process.env.SESSION_ID || "NENO-XMD~jPR1GA4I#fToQ-MwoG0JrYqjaSfp3vCMIYItZgzVxPXKs8MG6dUc",
+  OWNER_NUM: process.env.OWNER_NUM || "94740196729",
   PREFIX: process.env.PREFIX || ".",
   AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "true",
   AUTO_REACT_STATUS: process.env.AUTO_REACT_STATUS || "true",
   MODE : process.env.MODE || "public", 
   AUTO_STATUS_LIKE: process.env.AUTO_STATUS_LIKE || "true", 
-  AUTO_RECORDING: convertToBool(process.env.AUTO_RECORDING || "false"), 
+  AUTO_RECORDING: convertToBool(process.env.AUTO_RECORDING || "true"), 
   ANTI_DELETE: convertToBool(process.env.ANTI_DELETE || "true"),
   AUTO_VOICE: process.env.AUTO_VOICE || "true",
   AUTO_STICKER: process.env.AUTO_STICKER || "true",
